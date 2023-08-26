@@ -1,0 +1,86 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+.header {
+  display: inline-block;
+  margin: 0;
+}
+
+.btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+
+ion-icon {
+  font-size: 28px;
+  vertical-align: bottom;
+
+  /*cursor: pointer;*/
+}
+
+ion-icon.reload {
+  margin-left: 8px;
+
+  --ionicon-stroke-width: 38px;
+  vertical-align: sub;
+}
+
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 0;
+
+  list-style: none;
+}
+
+.notes__item {
+  position: relative;
+
+  box-sizing: border-box;
+  padding: 8px 14px;
+  width: 300px;
+  height: 170px;
+  border: 1px solid #000000;
+}
+
+ion-icon.delete.md.hydrated {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+.form {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  font-weight: 700;
+}
+
+textarea {
+  width: 294px;
+
+  resize: none;
+}
+
+.btn-add {
+  position: absolute;
+  bottom: 7px;
+  left: 259px;
+}
+
+.btn-remove{
+  position: absolute;
+  top: 2px;
+  right: -2px;
+}
